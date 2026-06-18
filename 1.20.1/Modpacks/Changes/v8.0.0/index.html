@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -2152,6 +2152,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2280,6 +2286,34 @@
     
   
     Central Monitor & Placeholder System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Other-Topics/Connected-Textures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating Connected Textures
   
 
     
@@ -2448,6 +2482,62 @@
     
   
     Custom Sounds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Other-Topics/Dimension-Icons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dimension Icons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Other-Topics/Dynamic-Renders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dynamic Renders
   
 
     
@@ -3376,27 +3466,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#machine-refactor" class="md-nav__link">
+  <a href="#machine-refactor-part-1-metamachine-and-metamachineblockentity-merge" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Machine Refactor
+        Machine Refactor Part 1: MetaMachine and MetaMachineBlockEntity merge
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Machine Refactor">
+    <nav class="md-nav" aria-label="Machine Refactor Part 1: MetaMachine and MetaMachineBlockEntity merge">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#metamachine-and-metamachineblockentity-merge" class="md-nav__link">
+  <a href="#interfaces-and-behaviours-merged-into-metamachine" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MetaMachine and MetaMachineBlockEntity merge
+        Interfaces and behaviours merged into MetaMachine
       
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-interaction-refactor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine interaction refactor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#machine-refactor-part-2-new-machine-trait-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Refactor Part 2: New Machine Trait System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Machine Refactor Part 2: New Machine Trait System">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#machine-constructor-and-trait-initialisation-changes" class="md-nav__link">
@@ -3454,36 +3572,19 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#machine-trait-refactor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Machine Trait Refactor
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Machine Trait Refactor">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
-  <a href="#new-system-example" class="md-nav__link">
+  <a href="#important-migration-note" class="md-nav__link">
     <span class="md-ellipsis">
       
-        New System Example
+        IMPORTANT MIGRATION NOTE:
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -3500,6 +3601,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connected-texture-reimplementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connected texture reimplementation
+      
+    </span>
+  </a>
   
 </li>
       
@@ -3728,6 +3840,8 @@
       
         
       
+        
+      
     
     
     
@@ -3816,6 +3930,34 @@
     
   
     Global Caches / Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Development/General-Topics/Machine-Trait-System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Trait System
   
 
     
@@ -4341,27 +4483,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#machine-refactor" class="md-nav__link">
+  <a href="#machine-refactor-part-1-metamachine-and-metamachineblockentity-merge" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Machine Refactor
+        Machine Refactor Part 1: MetaMachine and MetaMachineBlockEntity merge
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Machine Refactor">
+    <nav class="md-nav" aria-label="Machine Refactor Part 1: MetaMachine and MetaMachineBlockEntity merge">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#metamachine-and-metamachineblockentity-merge" class="md-nav__link">
+  <a href="#interfaces-and-behaviours-merged-into-metamachine" class="md-nav__link">
     <span class="md-ellipsis">
       
-        MetaMachine and MetaMachineBlockEntity merge
+        Interfaces and behaviours merged into MetaMachine
       
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-interaction-refactor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine interaction refactor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#machine-refactor-part-2-new-machine-trait-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Refactor Part 2: New Machine Trait System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Machine Refactor Part 2: New Machine Trait System">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#machine-constructor-and-trait-initialisation-changes" class="md-nav__link">
@@ -4419,36 +4589,19 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#machine-trait-refactor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Machine Trait Refactor
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Machine Trait Refactor">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
-  <a href="#new-system-example" class="md-nav__link">
+  <a href="#important-migration-note" class="md-nav__link">
     <span class="md-ellipsis">
       
-        New System Example
+        IMPORTANT MIGRATION NOTE:
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -4465,6 +4618,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connected-texture-reimplementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connected texture reimplementation
+      
+    </span>
+  </a>
   
 </li>
       
@@ -4510,9 +4674,8 @@
 <h1 id="updating-from-740-to-800">Updating from <code>7.4.0</code> to <code>8.0.0</code></h1>
 <h2 id="new-data-savesync-system">New Data Save/Sync System</h2>
 <p>A new system for saving and syncing object fields has been added. See <a href="../../../Development/Data-Sync-System/Migrating-From-LDLib-SyncData/">this page</a> for migration instructions.</p>
-<h2 id="machine-refactor">Machine Refactor</h2>
+<h2 id="machine-refactor-part-1-metamachine-and-metamachineblockentity-merge">Machine Refactor Part 1: <code>MetaMachine</code> and <code>MetaMachineBlockEntity</code> merge</h2>
 <p>Many aspects of the machine classes have been refactored and changed in order to streamline the machine system and remove legacy and unnecessary abstraction.</p>
-<h3 id="metamachine-and-metamachineblockentity-merge"><code>MetaMachine</code> and <code>MetaMachineBlockEntity</code> merge</h3>
 <ul>
 <li>The <code>MetaMachineBlockEntity</code>(MMBE) class has been removed, and <code>MetaMachine</code>(MM) is now a BlockEntity.</li>
 <li>Most methods and properties of MMBE have been moved onto MM.</li>
@@ -4547,6 +4710,19 @@ A number of methods have been renamed across a number of different interfaces an
 <li><code>boolean isInvalid()</code> -&gt; <code>boolean isRemoved()</code></li>
 <li><code>void markAsDirty()</code> -&gt; <code>void markAsChanged()</code></li>
 </ul>
+<h3 id="interfaces-and-behaviours-merged-into-metamachine">Interfaces and behaviours merged into MetaMachine</h3>
+<p>Some interfaces have been removed with their methods now part of the MetaMachine class directly</p>
+<ul>
+<li><code>IMachineLife</code> - Use <code>MetaMachine::onMachinePlaced</code> and <code>MetaMachine::onMachineDestroyed</code>.</li>
+<li><code>IMachineModifyDrops</code> - Use <code>MetaMachine::modifyDrops</code>.</li>
+<li><code>IInteractedMachine</code> - Use <code>MetaMachine::onUse</code> and <code>MetaMachine::onLeftClick</code>.</li>
+</ul>
+<h3 id="machine-interaction-refactor">Machine interaction refactor</h3>
+<p>Methods for processing machine interactions have changed, and all now take a single <code>ExtendedUseOnContext</code> argument. 
+Machine interactions have been split into two methods: <code>MetaMachine::onUse</code> and <code>MetaMachine::onUseWithItem</code>.</p>
+<h2 id="machine-refactor-part-2-new-machine-trait-system">Machine Refactor Part 2: New Machine Trait System</h2>
+<p>A new system for attaching traits and custom behaviour to machines has been added, and many machine interfaces and traits now use this new system.</p>
+<p>See <a href="../../../Development/General-Topics/Machine-Trait-System/">this page</a> for an overview of the new system.</p>
 <h3 id="machine-constructor-and-trait-initialisation-changes">Machine constructor and trait initialisation changes</h3>
 <p>The constructors for a large number of machines have changed in order to simply machine instance creation. Additionally, methods for trait creation have also been removed and now form part of the machine constructor.</p>
 <h4 id="all-machines"><strong>All Machines</strong></h4>
@@ -4578,43 +4754,16 @@ A number of methods have been renamed across a number of different interfaces an
 <li>Removed <code>createRecipeLogic</code> method</li>
 <li>Constructor now has an optional <code>Supplier&lt;RecipeLogic&gt;</code> argument, defaults to the standard <code>RecipeLogic</code> class</li>
 </ul>
-<h2 id="machine-trait-refactor">Machine Trait Refactor</h2>
-<p>A new system for attaching traits and custom behaviour to machines has been added, and many machine interfaces and traits now use this new system.</p>
-<h3 id="new-system-example">New System Example</h3>
-<p>Example of the new <code>AutoOutputTrait</code></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">CustomDrumMachine</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">MetaMachine</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="kd">protected</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">NotifiableFluidTank</span><span class="w"> </span><span class="n">tank</span><span class="p">;</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">AutoOutputTrait</span><span class="w"> </span><span class="n">autoOutput</span><span class="p">;</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="nf">DrumMachine</span><span class="p">(</span><span class="n">BlockEntityCreationInfo</span><span class="w"> </span><span class="n">info</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">capacity</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="kd">super</span><span class="p">(</span><span class="n">info</span><span class="p">);</span>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="c1">// Traits must be attached in the constructor.</span>
-<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
-<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">tank</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">NotifiableFluidTank</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">capacity</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">.</span><span class="na">BOTH</span><span class="p">);</span>
-<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
-<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="c1">// Registers an auto output trait that provides fluid output behaviour for the given fluid tank.</span>
-<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">autoOutput</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">AutoOutputTrait</span><span class="p">.</span><span class="na">ofFluids</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="n">tank</span><span class="p">);</span>
-<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>
-<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">    </span><span class="n">autoOutput</span><span class="p">.</span><span class="na">setFluidOutputDirection</span><span class="p">(</span><span class="n">Direction</span><span class="p">.</span><span class="na">DOWN</span><span class="p">);</span>
-<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">    </span><span class="n">autoOutput</span><span class="p">.</span><span class="na">setFluidOutputDirectionValidator</span><span class="p">(</span><span class="n">d</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">d</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">Direction</span><span class="p">.</span><span class="na">DOWN</span><span class="p">);</span>
-<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">  </span><span class="p">}</span>
-<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>
-<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">  </span><span class="c1">// Any code can query traits from a machine </span>
-<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">  </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">queryTraits</span><span class="p">(</span><span class="n">MetaMachine</span><span class="w"> </span><span class="n">machine</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>
-<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">      </span><span class="c1">// Returns a trait with the given type, or null.</span>
-<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">      </span><span class="n">AutoOutputTrait</span><span class="w"> </span><span class="n">autoOutputTrait</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">machine</span><span class="p">.</span><span class="na">getTraitHolder</span><span class="p">().</span><span class="na">getTrait</span><span class="p">(</span><span class="n">AutoOutputTrait</span><span class="p">.</span><span class="na">TYPE</span><span class="p">);</span>
-<a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a>
-<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="w">      </span><span class="n">Optional</span><span class="o">&lt;</span><span class="n">RecipeLogic</span><span class="o">&gt;</span><span class="w"> </span><span class="n">recipeLogicOptional</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">machine</span><span class="p">.</span><span class="na">getTraitHolder</span><span class="p">().</span><span class="na">getTrait</span><span class="p">(</span><span class="n">RecipeLogic</span><span class="p">.</span><span class="na">TYPE</span><span class="p">);</span>
-<a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a>
-<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="w">      </span><span class="c1">// Gets all traits with the specified type.</span>
-<a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a><span class="w">      </span><span class="n">List</span><span class="o">&lt;</span><span class="n">NotifiableItemStackHandler</span><span class="o">&gt;</span><span class="w"> </span><span class="n">allItemStackHandlers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">machine</span><span class="p">.</span><span class="na">getTraitHolder</span><span class="p">().</span><span class="na">getTraits</span><span class="p">(</span><span class="n">NotifiableItemStackHandler</span><span class="p">.</span><span class="na">TYPE</span><span class="p">);</span>
-<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a>
-<a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="w">  </span><span class="p">}</span>
-<a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="p">}</span>
+<h4 id="important-migration-note">IMPORTANT MIGRATION NOTE:</h4>
+<p>Traits must be attached to a machine directly by calling <code>attachTrait(MachineTrait trait)</code> on the trait being attached. 
+Previously, all machine traits were constructed with the machine as the first argument.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">/////// OLD</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">this</span><span class="p">.</span><span class="na">itemHandler</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">NotifiableItemStackHandler</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">.</span><span class="na">BOTH</span><span class="p">);</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">////// NEW</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="k">this</span><span class="p">.</span><span class="na">itemHandler</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">attachTrait</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">NotifiableItemStackHandler</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">.</span><span class="na">BOTH</span><span class="p">))</span>
 </code></pre></div>
+When migrating, remove the <code>this</code> argument from the machine trait constructor and instead attach the trait.</p>
 <h3 id="removed-interfaces">Removed interfaces</h3>
 <p>A large number of machine feature interfaces have been removed, and have had their functionality merged into the standard MetaMachine class, or now use the new machine trait system:</p>
 <ul>
@@ -4622,9 +4771,6 @@ A number of methods have been renamed across a number of different interfaces an
 <li><code>IRotorHolderMachine</code> Use the <code>RotorHolderMachine</code> class directly.</li>
 <li><code>IMultiController</code> Use the <code>MultiblockControllerMachine</code> class directly.</li>
 <li><code>IMufflerMachine</code> Use the <code>MufflerMachine</code> class directly.</li>
-<li><code>IMachineLife</code> Override the <code>MetaMachine::onMachinePlaced</code> and <code>MetaMachine::onMachineDestroyed</code>.</li>
-<li><code>IMachineModifyDrops</code> Override <code>MetaMachine::modifyDrops</code>.</li>
-<li><code>IInteractedMachine</code> Override <code>MetaMachine::onUse</code> and <code>MetaMachine::onLeftClick</code>.</li>
 <li><code>ICleanroomReceiver</code> &amp; <code>ICleanroomProvider</code> - Use <code>CleanroomReceiverTrait</code> and <code>CleanroomProviderTrait</code>.</li>
 <li><code>IAutoOutputBoth</code>, <code>IAutoOutputFluid</code>, <code>IAutoOutputItem</code> - Use <code>AutoOutputTrait</code>.</li>
 <li><code>IExplosionMachine</code> - Use <code>EnvironmentalExplosionTrait</code>, <code>GTUtil::doExplosion</code>, and <code>GTUtil::setOnFire</code></li>
@@ -4634,13 +4780,35 @@ A number of methods have been renamed across a number of different interfaces an
 <li><code>IHPCAComponentHatch</code> - Use <code>HPCAComponentTrait</code></li>
 <li><code>IHPCAComputationProvider</code> - Use <code>HPCAComputationProviderTrait</code></li>
 <li><code>IHPCACoolantProvider</code> - Use <code>HPCACoolantProviderTrait</code></li>
+<li><code>IFluidRendererMulti</code> - Use <code>MultiblockFluidRendererTrait</code></li>
 </ul>
+<h2 id="connected-texture-reimplementation">Connected texture reimplementation</h2>
+<p>The mod's connected texture logic has been reimplemented in GTM proper.
+Texture packs, addons, and modpacks will have to change their texture metadata files for connected texures slightly.<br />
+A few regexes for fixing all the MCMeta files is follows, run them in order:</p>
+<ol>
+<li>Match: <code>"ldlib":([\s\{]*)"connection"(:\s".*?")(?:,\s.*)?</code><br />
+   Replace with: <code>"gtceu":$1"connection_texture"$2</code> </li>
+<li>Match: <code>\s*\},\s*"shimmer":\s*\{(\s*"bloom":.*)</code><br />
+   Replace with: <code>,$1</code> </li>
+<li>Match: <code>(\{\s*)"shimmer":(\s*\{\s*"bloom":.*)</code><br />
+   Replace with: <code>$1"gtceu":$2</code> </li>
+</ol>
 <h2 id="other-changes">Other Changes</h2>
 <ul>
 <li><code>BlastingRecipeBuilder</code>, <code>CampfireRecipeBuilder</code>, <code>SmeltingRecipeBuilder</code> and <code>SmokingRecipeBuilder</code> have been merged into <code>SimpleCookingRecipeBuilder</code><ul>
 <li>Example usage: <code>SimpleCookingRecipeBuilder.campfireCooking("cooking_chicken").input(new ItemStack(Items.CHICKEN)).output(new ItemStacks(Items.COOKED_CHICKEN)).cookingTime(100).experience(100).save(provider);</code></li>
 </ul>
 </li>
+<li><code>GTFluidImpl</code> has been merged into <code>GTFluid</code>, use <code>GTFluid.Flowing</code> and <code>GTFluid.Source</code> instead of <code>GTFluidImpl.Flowing</code> and <code>GTFluidImpl.Source</code>.</li>
+<li>Item behaviors have been moved to <code>common/item/behavior</code>, and some items have been moved from <code>api/item</code> to <code>common/item</code>.</li>
+<li>Changed the minimum value of the <code>compat.minimap.surfaceRockProspectRange</code> and <code>compat.minimap.oreBlockProspectRange</code> configs from -1 to 0. The behavior is still disabled with 0. </li>
+<li>All materials are now stored in a single registry, instead of a registry per addon. Replace references to <code>GTCEuAPI.materialManager</code> with <code>GTRegistries.MATERIALS</code>.</li>
+<li><code>ChargerMachine</code> has been merged into <code>BatteryBufferMachine</code>.</li>
+<li>Calling the battery buffer constructor with the following args gives the same behaviour as a charger machine: <code>(info, tier, inventorySize, BatteryBufferMachine.AMPS_PER_BATTERY_CHARGER, 0)</code></li>
+<li>Refactored Jade provider code. Use the <code>MachineInfoProvider</code> class for jade providers for a specific machine type, and <code>MachineTraitProvider</code> for providers for a specific machine trait. </li>
+<li><code>GTUtil.getMoltenFluid(Material)</code> has been moved to <code>Material.getHotFluid()</code>.</li>
+<li><code>ICopyable::copyConfig</code>'s <code>CompoundTag</code> argument should now be mutated by reference instead of a new one returned (and thus, the return type has been changed to <code>void</code>).</li>
 </ul>
 
 
